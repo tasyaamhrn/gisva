@@ -88,13 +88,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Lato", "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 500;
   line-height: 1.2;
-  color: #272D4E;
+  color: #000;
 }
 
 h1, .h1 {
   font-size: calc(1.37383rem + 1.48598vw);
 }
-
+.mt-3 mb-4{
+  text-align: justify;
+}
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.48832rem;
@@ -3622,8 +3624,8 @@ fieldset:disabled .btn {
 
 .btn-check:focus + .btn-info, .btn-info:focus {
   color: #fff;
-  background-color: #8559c0;
-  border-color: #7d54b5;
+  background-color: #17B26A;
+  border-color: #17B26A;
   -webkit-box-shadow: 0 0 0 0 rgba(171, 128, 230, 0.5);
   box-shadow: 0 0 0 0 rgba(171, 128, 230, 0.5);
 }
@@ -3632,8 +3634,8 @@ fieldset:disabled .btn {
 .btn-check:active + .btn-info, .btn-info:active, .btn-info.active,
 .show > .btn-info.dropdown-toggle {
   color: #fff;
-  background-color: #7d54b5;
-  border-color: #754faa;
+  background-color: #17B26A;
+  border-color: #17B26A;
 }
 
 .btn-check:checked + .btn-info:focus,
@@ -3645,8 +3647,8 @@ fieldset:disabled .btn {
 
 .btn-info:disabled, .btn-info.disabled {
   color: #fff;
-  background-color: #9C69E2;
-  border-color: #9C69E2;
+  background-color: #17B26A;
+  border-color: #17B26A;
 }
 
 .btn-warning {
@@ -3714,8 +3716,8 @@ fieldset:disabled .btn {
 .btn-check:active + .btn-danger, .btn-danger:active, .btn-danger.active,
 .show > .btn-danger.dropdown-toggle {
   color: #fff;
-  background-color: #c04f93;
-  border-color: #b44a8a;
+  background-color: #0FBB6E;
+  border-color: #0FBB6E;
 }
 
 .btn-check:checked + .btn-danger:focus,
@@ -3727,8 +3729,8 @@ fieldset:disabled .btn {
 
 .btn-danger:disabled, .btn-danger.disabled {
   color: #fff;
-  background-color: #F063B8;
-  border-color: #F063B8;
+  background-color: #0FBB6E;
+  border-color: #0FBB6E;
 }
 
 .btn-light {
@@ -5240,8 +5242,11 @@ fieldset:disabled .btn {
 
 .card-text:last-child {
   margin-bottom: 0;
+  
 }
-
+.card-text{
+  text-align: justify;
+}
 .card-link:hover {
   text-decoration: none;
 }
